@@ -193,7 +193,7 @@ public final class ParasiteRenderer {
         float sc = form.visualScale * model.bodyScale(s);
         ps.scale(sc, sc, sc);
         ps.translate(0f, -1.5f, 0f);
-        net.minecraft.client.renderer.Lighting.setupForEntityInInventory();
+        com.mojang.blaze3d.platform.Lighting.setupForEntityInInventory();
         com.mojang.blaze3d.systems.RenderSystem.enableDepthTest();
         MultiBufferSource.BufferSource buf = gg.bufferSource();
         int full = net.minecraft.client.renderer.LightTexture.FULL_BRIGHT;
@@ -206,6 +206,6 @@ public final class ParasiteRenderer {
         model.renderEyes(ps, buf.getBuffer(RenderType.eyes(EYE_TEX)), eyePart, model.eyeScale(s), r, g, b, 1f);
         buf.endBatch();
         ps.popPose();
-        net.minecraft.client.renderer.Lighting.setupFor3DItems();
+        com.mojang.blaze3d.platform.Lighting.setupFor3DItems();
     }
 }
