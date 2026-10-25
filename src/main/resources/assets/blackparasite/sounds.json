@@ -1,0 +1,74 @@
+{
+  "ui_hover": {
+    "sounds": [
+      {
+        "name": "blackparasite:ui_hover",
+        "stream": false
+      }
+    ]
+  },
+  "ui_click": {
+    "sounds": [
+      {
+        "name": "blackparasite:ui_click",
+        "stream": false
+      }
+    ]
+  },
+  "roar": {
+    "sounds": [
+      {
+        "name": "blackparasite:roar",
+        "stream": false
+      }
+    ]
+  },
+  "tentacle": {
+    "sounds": [
+      {
+        "name": "blackparasite:tentacle",
+        "stream": false
+      }
+    ]
+  },
+  "absorb": {
+    "sounds": [
+      {
+        "name": "blackparasite:absorb",
+        "stream": false
+      }
+    ]
+  },
+  "evolve": {
+    "sounds": [
+      {
+        "name": "blackparasite:evolve",
+        "stream": false
+      }
+    ]
+  },
+  "whisper": {
+    "sounds": [
+      {
+        "name": "blackparasite:whisper",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat": {
+    "sounds": [
+      {
+        "name": "blackparasite:heartbeat",
+        "stream": false
+      }
+    ]
+  },
+  "ambient_menu": {
+    "sounds": [
+      {
+        "name": "blackparasite:ambient_menu",
+        "stream": true
+      }
+    ]
+  }
+}

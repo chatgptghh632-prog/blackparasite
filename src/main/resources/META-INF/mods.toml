@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="blackparasite"
+version="0.1.0"
+displayName="The Black Parasite"
+description='''
+Un parasite extraterrestre noir se fixe à vous, absorbe les créatures, évolue
+et vous transforme en entité monstrueuse. Mod d'horreur et de progression.
+'''
+
+[[dependencies.blackparasite]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.blackparasite]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
